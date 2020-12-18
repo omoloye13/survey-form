@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightseagreen;
+}
+.top h1{
+    text-align: center;
+}
+.container{
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.top-para{
+    margin-top: 25px;
+
+}
+.top-para p{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+ .input{
+    margin-top: 25px;
+    border: solid 1px;
+    height: 25px;
+    margin-left: 1%;
+}
+.option{
+    width: 10%;
+    border: solid 1px;
+    margin-top: 25px;
+    height: 25px;
+    margin-right: 23%;
+}
+.check_box{
+    display: flex;
+    margin-top: 25px;
+}
+#box-1{
+    margin-left: 23%;
+}
+#box-2{
+    margin-left: 1%;
+}
+#camp{
+    margin-left: 32%;
+}
+.sel{
+    margin-right: 15%;
+    width: 10%;
+    border: solid 1px;
+    margin-top: 25px;
+    height: 25px;
+}
+.apply-box{
+    display: flex;
+    margin-top: 25px;
+}
+#apply-1{
+    margin-left: 21%;
+}
+#apply-2{
+    margin-left: 1%;
+}
+#all{
+    margin-left: 49%;
+}
+
+/* media queries */
+@media (max-width:650px){
+    .option{
+        width: 30%;
+        border: solid 1px;
+        margin-top: 15px;
+        height: 25px;
+        margin-right: 10%;
+    }
+    .check_box{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #box-1{
+        margin-left: 3%;
+    }
+    #box-2{
+        margin-left: 1%;
+    }
+    #camp{
+        margin-left: 2%;
+    }
+    .sel{
+        width: 50%;
+        border: solid 1px;
+        margin-top: 15px;
+        height: 25px;
+        margin-right: 10%;
+    }
+    .apply-box{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #apply-1{
+        margin-left: 3%;
+    }
+    #apply-2{
+        margin-left: 1%;
+    }
+    #all{
+        margin-left: 2%;
+    }
+
+}
