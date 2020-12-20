@@ -33,28 +33,41 @@ form{
     height: 25px;
     margin-left: 1%;
 }
-.option{
-    width: 10%;
-    border: solid 1px;
+.top-role{
+    display: flex;
     margin-top: 25px;
-    height: 25px;
-    margin-right: 23%;
+
 }
-.check_box{
+#role-1{
+    margin-left: 20%;
+}
+#role-2{
+    margin-left: 2.3%;
+}
+.option{
+    border: solid 1px;
+    background-color: whitesmoke;
+    height: 25px;
+}
+.radio-box{
     display: flex;
     margin-top: 25px;
 }
-#box-1{
-    margin-left: 23%;
+.radio-box1{
+    margin-left: 22%;
 }
-#box-2{
-    margin-left: 1%;
+.radio-box2{
+margin-left: 2.5%;
 }
-#camp{
-    margin-left: 32%;
+.attach{
+    color: white;
 }
+.free{
+    margin-left: 35%;
+}
+
 .sel{
-    margin-right: 15%;
+    margin-right: 13%;
     width: 10%;
     border: solid 1px;
     margin-top: 25px;
@@ -68,7 +81,10 @@ form{
     margin-left: 21%;
 }
 #apply-2{
-    margin-left: 1%;
+    margin-left: 2.5%;
+}
+#apply-2 input[type="checkbox"]{
+    margin-bottom: 3%;
 }
 #all{
     margin-left: 49%;
@@ -76,27 +92,40 @@ form{
 
 /* media queries */
 @media (max-width:650px){
-    .option{
-        width: 30%;
-        border: solid 1px;
-        margin-top: 15px;
-        height: 25px;
-        margin-right: 10%;
-    }
-    .check_box{
+    .top-role{
         display: block;
-        width: 100%;
-        margin-top: 15px;
+        margin-top: 25px;
+    
     }
-    #box-1{
-        margin-left: 3%;
-    }
-    #box-2{
-        margin-left: 1%;
-    }
-    #camp{
+    #role-1{
         margin-left: 2%;
     }
+    #role-2{
+        margin-left: 2%;
+    }
+    .option{
+        border: solid 1px;
+        background-color: whitesmoke;
+        height: 25px;
+    }
+    .radio-box{
+        display: block;
+        margin-top: 25px;
+    }
+    .radio-box1{
+        margin-left: 2%;
+    }
+    .radio-box2{
+    margin-left: 2.5%;
+    }
+    .attach{
+        color: white;
+    }
+    .free{
+        margin-left: 5%;
+    }
+    
+   
     .sel{
         width: 50%;
         border: solid 1px;
