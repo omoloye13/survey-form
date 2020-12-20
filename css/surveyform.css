@@ -92,6 +92,9 @@ margin-left: 2.5%;
 
 /* media queries */
 @media (max-width:650px){
+    .container{
+        height: 600px;
+    }
     .top-role{
         display: block;
         margin-top: 25px;
@@ -124,8 +127,9 @@ margin-left: 2.5%;
     .free{
         margin-left: 5%;
     }
-    
-   
+    .camp{
+        margin-right: 5%;
+    }
     .sel{
         width: 50%;
         border: solid 1px;
